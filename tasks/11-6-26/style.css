@@ -1,0 +1,258 @@
+/* ==========================================
+   Base Structure & Layout Adjustments
+   ========================================== */
+
+body {
+    background-color: #f7f9fa;
+    margin: 40px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    font-style: normal;
+}
+
+header {
+    background-color: #e9ecef;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #cccccc;
+}
+
+main {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #e9ecef;
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #cccccc;
+}
+
+
+/* ==========================================
+   Typography & Inline Formatting
+   ========================================== */
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-style: normal;
+}
+
+h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+h6 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.showcase-paragraph {
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-style: normal;
+}
+
+i,
+em {
+    font-style: italic;
+}
+
+b,
+strong,
+ins,
+del,
+sup,
+sub {
+    font-style: normal;
+}
+
+mark {
+    background-color: #fff3cd;
+    padding: 2px;
+    font-style: normal;
+}
+
+small {
+    font-size: 12px;
+    font-style: italic;
+}
+
+footer p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+/* ==========================================
+   Sections & Interactive Components
+   ========================================== */
+
+.content-section {
+    background-color: #ffffff;
+    margin-bottom: 25px;
+    padding: 25px;
+    border: 1px solid #e2e8f0;
+}
+
+.content-section:hover {
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+}
+
+.image-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #0056b3;
+}
+
+.image-container:hover {
+    background-color: #e6f2ff;
+}
+
+.main-img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+
+
+/* ==========================================
+   Lists & Tables
+   ========================================== */
+
+.lists-row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul,
+ol {
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-style: normal;
+}
+
+li:hover {
+    font-style: italic;
+}
+
+table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #b2bec3;
+}
+
+th {
+    background-color: #dfe6e9;
+    font-size: 16px;
+    padding: 12px;
+    border: 1px solid #b2bec3;
+    font-style: italic;
+}
+
+td {
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #dfe6e9;
+    font-style: normal;
+}
+
+tr:hover {
+    background-color: #f1f2f6;
+}
+
+.status-online {
+    background-color: #d4edda;
+    padding: 4px;
+    font-style: normal;
+}
+
+.status-offline {
+    background-color: #f8d7da;
+    padding: 4px;
+    font-style: italic;
+}
+
+
+/* ==========================================
+   Forms & Inputs
+   ========================================== */
+
+.form-card {
+    background-color: #fdfdfd;
+    margin-top: 15px;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    background-color: #ffffff;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    font-style: normal;
+}
+
+input:hover,
+textarea:hover {
+    background-color: #f7f7f7;
+    border: 1px solid #777777;
+    font-style: italic;
+}
+
+.submit-btn {
+    background-color: #e2e8f0;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    font-style: normal;
+}
+
+.submit-btn:hover {
+    background-color: #cbd5e1;
+    border: 1px solid #94a3b8;
+    font-style: italic;
+}

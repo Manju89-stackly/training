@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete HTML Elements Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Heading Level 1</h1>
+        <h2>Heading Level 2</h2>
+        <h3>Heading Level 3</h3>
+        <h4>Heading Level 4</h4>
+        <h5>Heading Level 5</h5>
+        <h6>Heading Level 6</h6>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <h2>Text Formatting Showcase & Clickable Image</h2>
+
+            <p class="showcase-paragraph">
+                This is a sentence displaying normal text. Inside this very same paragraph, we can make words
+                <b>bold</b> to grab attention or use <strong>strong text</strong> to show high importance. We can slant
+                words using classic <i>italic formatting</i> or choose to write them as <em>emphasized text</em>
+                instead. If we need to draw immediate focus, we can <mark>mark text with a bright highlighter</mark>, or
+                drop the font scale down using <small>small text</small> for fine print. For revisions, we can show text
+                that has been <del>deleted and crossed out</del> alongside text that is freshly <ins>inserted and
+                    underlined</ins>. Lastly, we can handle mathematical exponents or footnote indicators using
+                <sup>superscripted text</sup>, and format chemical compounds or tracking values using <sub>subscripted
+                    text</sub>.
+            </p>
+
+            <a href="about.html" class="image-container">
+                <img src="https://fastly.picsum.photos/id/1045/800/400.jpg?hmac=9tUPHHcdNCjOGTiVg_6G1bZSMoYMdPbOyQufVSvQYFY"
+                    alt="Scenic landscape link to about page" class="main-img">
+            </a>
+        </section>
+
+        <section class="content-section">
+            <h2>Lists Layout</h2>
+            <div class="lists-row">
+                <div>
+                    <h3>Unordered List (UL)</h3>
+                    <ul>
+                        <li>Semantic Elements</li>
+                        <li>External Style Links</li>
+                        <li>Responsive Layouts</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Ordered List (OL)</h3>
+                    <ol>
+                        <li>Structure the document data.</li>
+                        <li>Map elements inside the stylesheet.</li>
+                        <li>Run the index file in a browser.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Structured Data Table</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Developer Profile</th>
+                        <th>Engineering Role</th>
+                        <th>Network Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>Alex Stark</td>
+                        <td>Frontend Engineer</td>
+                        <td class="status-online">Online</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Morgan Vance</td>
+                        <td>UI/UX Architect</td>
+                        <td class="status-online">Online</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>Chris Finch</td>
+                        <td>DevOps Manager</td>
+                        <td class="status-offline">Offline</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="content-section">
+            <h2>User Form Submission</h2>
+            <div class="form-card">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Alex Stark" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="useremail">Email Address</label>
+                        <input type="email" id="useremail" name="useremail" placeholder="alex@domain.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="usermessage">Message Details</label>
+                        <textarea id="usermessage" name="usermessage" rows="4"
+                            placeholder="Write your message details here..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit Information</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
