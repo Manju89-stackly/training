@@ -1,7 +1,3 @@
-/* ==========================================
-   Base Structure & Layout Adjustments
-   ========================================== */
-
 body {
     background-color: #f7f9fa;
     margin: 40px;
@@ -29,9 +25,7 @@ footer {
 }
 
 
-/* ==========================================
-   Typography & Inline Formatting
-   ========================================== */
+
 
 h1 {
     font-size: 36px;
@@ -106,9 +100,7 @@ footer p {
 }
 
 
-/* ==========================================
-   Sections & Interactive Components
-   ========================================== */
+
 
 .content-section {
     background-color: #ffffff;
@@ -140,9 +132,7 @@ footer p {
 }
 
 
-/* ==========================================
-   Lists & Tables
-   ========================================== */
+
 
 .lists-row {
     margin-top: 10px;
@@ -203,9 +193,7 @@ tr:hover {
 }
 
 
-/* ==========================================
-   Forms & Inputs
-   ========================================== */
+
 
 .form-card {
     background-color: #fdfdfd;
