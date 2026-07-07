@@ -108,7 +108,7 @@ console.log(coupon.next().value);
 
 //Task 10-Course registration(Currying)
 console.log("\nTask 10");
-function course(courseName) 
+function createcourse(courseName) 
 {
     return function(batch) {
         return function(room) {
@@ -118,7 +118,7 @@ function course(courseName)
         }
     }
 }
-course("JavaScript")("Morning")("Batch-36");
+createcourse("JavaScript")("Morning")("Batch-36");
 
 //Task 11-Movie collection
 console.log("\nTask 11");
